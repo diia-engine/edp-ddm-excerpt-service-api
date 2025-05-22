@@ -61,6 +61,7 @@ data:
         type: redis
         backend:
           redis:
+            username: ${REDIS_USERNAME}
             password: ${REDIS_PASSWORD}
             sentinel:
               master: mymaster

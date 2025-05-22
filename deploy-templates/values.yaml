@@ -109,4 +109,4 @@ audit:
     schemaRegistryUrl: http://kafka-schema-registry:8081
 
 redis:
-  secretName: redis-auth
+  secretName: redis-excerpt-service-api-user-secret
